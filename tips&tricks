@@ -2,3 +2,7 @@ For formating of numbers use string formating. E.g. say you have to convert 56.0
   x = 56.0
   print('%.2f'%x)
 -----------------------------------------------------------------------------------------------
+In order to say change a character in a string :->
+  string[: i] + char + string[i+1:]
+-----------------------------------------------------------------------------------------------
+  
