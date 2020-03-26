@@ -1,0 +1,4 @@
+For formating of numbers use string formating. E.g. say you have to convert 56.0 to 56.00 :->
+  x = 56.0
+  print('%.2f'%x)
+-----------------------------------------------------------------------------------------------
