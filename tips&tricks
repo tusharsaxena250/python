@@ -17,4 +17,8 @@ justfication of text :->
   2: .center(width, 'seperator default is space')
   3. .rjust(width, 'seperator default is space')
 -----------------------------------------------------------------------------------------------
-
+for wrapping a sentence in particular length :->
+  import testwrap
+  textwrap.wrap(text, max_width_in_one_line)
+  
+  \\the above returns a list of strings for each line.
