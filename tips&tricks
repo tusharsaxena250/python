@@ -5,4 +5,11 @@ For formating of numbers use string formating. E.g. say you have to convert 56.0
 In order to say change a character in a string :->
   string[: i] + char + string[i+1:]
 -----------------------------------------------------------------------------------------------
+Checking a string :->
+  1: isalnum() => checking if a string contains only alphanumeric characters, e.g., '123Abc' but not '123#we'
+  2: isalpha() => checking if a string contains only alphabet as characters, e.g., 'AbC' but not '1BC'
+  3: isdigit() => checking if a string contains only digit, e.g., '123' but not '123a'
+  4: islower() => checking if a string contains only lowercase characters, e.g., 'abc' but not 'abC'
+  5: isupper() => checking if a string contains only uppercase characters, e.g., 'ABC' but not 'aBC'
+-----------------------------------------------------------------------------------------------
   
